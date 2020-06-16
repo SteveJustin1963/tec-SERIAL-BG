@@ -2,8 +2,8 @@
 TEC-1 Serial card by Ben Grimmett
 
 Ben Grimmett
-Visual Storyteller · March 5 · tagTEC-1 Hardware
-Edit: Due to discussions in this thread and others, the following changes have been made:
+March 5 · TEC-1 Hardware
+Due to discussions in this thread and others, the following changes have been made:
 
 Interrupt signal on pad "PortA"
 
