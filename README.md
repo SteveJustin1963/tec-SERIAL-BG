@@ -3,6 +3,11 @@ TEC-1 Serial card by Ben Grimmett
 
 Ben Grimmett
 March 5 · TEC-1 Hardware
+
+You can tie PortB/C to any spare IO port you choose.
+the first version was address mapped but it was decided to move it all to IO
+Port A, B and C are on the serial board, so IO as in IO select line, not IO map, you can wire that up to whatever you like
+
 Due to discussions in this thread and others, the following changes have been made:
 
 Interrupt signal on pad "PortA"
@@ -21,9 +26,6 @@ Status(1)=RXrec (0=empty, 1=new data arrived)
 
 Cold Start default is 9600bps/Int disabled.
 
-You can tie PortB/C to any spare IO port you choose.
-the first version was address mapped but it was decided to move it all to IO
-Port A, B and C are on the serial board, so IO as in IO select line, not IO map, you can wire that up to whatever you like
 
 115200bps serial port for the TEC. Fits into the exp socket and requires no soldering.
 
