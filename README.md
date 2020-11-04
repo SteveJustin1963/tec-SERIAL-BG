@@ -22,8 +22,8 @@ Status(1)=RXrec (0=empty, 1=new data arrived)
 Cold Start default is 9600bps/Int disabled.
 
 You can tie PortB/C to any spare IO port you choose.
-
-It's finished!
+the first version was address mapped but it was decided to move it all to IO
+Port A, B and C are on the serial board, so IO as in IO select line, not IO map, you can wire that up to whatever you like
 
 115200bps serial port for the TEC. Fits into the exp socket and requires no soldering.
 
@@ -40,6 +40,11 @@ $1002 is the status buffer, TX empty, RX full.
 If I get these made up in bulk, I could squeeze 128k of banked sram on this thing too...
 
 Who's up for a micro bootstrap coding competition?!?
+
+
+---------------
+
+
 
 Product available from https://bennvenn.myshopify.com/products/tec-1d-talking-electronics-z80-trainer-computer-pcb-only
 
