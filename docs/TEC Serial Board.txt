@@ -1,0 +1,9 @@
+TEC Serial Board - Fits in the Expansion socket or can be wired externally. Can also have a 6116 piggy backed on top.
+
+Two ports required, Data Read/Write and Status/Prescale registers. Third port added just in case we need it later.
+
+Baud set via Xtal selection and pre-scale registers. Should get from 9600 up to 115k using this method. I've added a 5 pin header so you can solder an eBay TTL-USB serial board and wire the pinout accordingly (They're all different it seems)
+
+I'll open source the VHDL, schematics etc so could be a useful little kit to get your feet wet in CPLD/FPGA coding. The IDE is free and the programmer is only a few dollars from eBay.
+
+The'll be arriving in the next couple of weeks, 9 available.
