@@ -4,7 +4,7 @@ TEC-1 Serial card by Ben Grimmett
 Ben Grimmett
 March 5 · TEC-1 Hardware
 
-You can tie PortB/C to any spare IO port you choose.
+"You can tie PortB/C to any spare IO port you choose.
 the first version was address mapped but it was decided to move it all to IO
 Port A, B and C are on the serial board, so IO as in IO select line, not IO map, you can wire that up to whatever you like
 
@@ -41,11 +41,11 @@ $1002 is the status buffer, TX empty, RX full.
 
 If I get these made up in bulk, I could squeeze 128k of banked sram on this thing too...
 
-Who's up for a micro bootstrap coding competition?!?
+Who's up for a micro bootstrap coding competition?!?"
 
 
 -----
-There are two ports of your choosing/wiring
+"There are two ports of your choosing/wiring
 One is a data in and out
 The other is settings.
 By default, it's 9600bps 1 start bit, no parity, 2 stop bits
@@ -81,7 +81,7 @@ as in, IN A,(xx) and Out (xx),A
 the first version was address mapped but it was decided to move it all to IO
 Port A, B and C are on the serial board
 
-you can wire that up to whatever you like
+you can wire that up to whatever you like."
 
 
 
