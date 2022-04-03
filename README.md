@@ -32,7 +32,7 @@ March 5 · TEC-1 Hardware
 - By default, it's 9600bps 1 start bit, no parity, 2 stop bits
 - The settings register selects 115200bps 
 - and also if you want an interrupt triggered on rx
-
+-
 - Just write to the port
 - It'll auto send the byte
 - Or read the last bite received
@@ -50,19 +50,19 @@ March 5 · TEC-1 Hardware
 - RXRead <= '0' when PortB='0' and WR='1' else '1'; 
 - StatRead <= '0' when PortC='0' and WR='1' else '1'; 
 - StatWrite <= '0' when PortC='0' and WR='0' else '1';
-
+-
 - reading the status register, port C: Statread='0' then D(0)<=TXBUSY; 
 - 1 = buffer ready, 
 - 0 = in use D(1)<=RXFull;
 - 1 = byte ready to be read, 
 - 0 = no new data
-
+-
 - writing to the status register:
 - CLKslowFast<=D(0); IntEn <=D(1);
-
+-
 - Ok, so there is no address space mapped to the serial board its all through ports 
 - as in, IN A,(xx) and Out (xx),A
-
+-
 - the first version was address mapped 
 - but it was decided to move it all to IO Port A, B and C are on the serial board
 - you can wire that up to whatever you like."
